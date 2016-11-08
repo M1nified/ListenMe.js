@@ -1,0 +1,29 @@
+{
+  "name": "listenme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1nified/ListenMe.js.git"
+  },
+  "keywords": [
+    "event",
+    "listen",
+    "addEventListener",
+    "listener"
+  ],
+  "author": "M1nified",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/M1nified/ListenMe.js/issues"
+  },
+  "homepage": "https://github.com/M1nified/ListenMe.js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}

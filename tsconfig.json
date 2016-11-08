@@ -1,0 +1,14 @@
+{
+  "compilerOptions":{
+    "target":"es6",
+    "module":"amd",
+    "declaration": true,
+    "sourceMap": true,
+    "declarationDir": "typings",
+    "outDir": "build",
+    "watch": true
+  },
+  "include":[
+    "src/*.ts"
+  ]
+}
