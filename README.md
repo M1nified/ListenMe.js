@@ -1,5 +1,7 @@
 # ListenMe.js
 
+[![Build Status](https://travis-ci.org/M1nified/ListenMe.js.svg?branch=master)](https://travis-ci.org/M1nified/ListenMe.js)
+
 Simply add event listeners for nonDOM objects in JavaScript.
 
 ## Installation
