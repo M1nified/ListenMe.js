@@ -9,8 +9,8 @@ describe('index.js', () => {
         'listenme',
         'listenMe',
         'ListenMe',
-        'Listener',
-        'Event'
+        'MeListener',
+        'MeEvent'
     ])
   });
 

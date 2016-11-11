@@ -1,4 +1,4 @@
-var MeEvent = require('../build/MeEvent.js'),
+var MeEvent = require('../build/aio.js').MeEvent,
   should = require('chai').should();
 
 

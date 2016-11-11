@@ -1,4 +1,4 @@
-var ListenMe = require('../build/ListenMe.js'),
+var ListenMe = require('../build/aio.js'),
   should = require('chai').should();
 
 
@@ -11,8 +11,8 @@ describe('ListenMe Class', () => {
         'listenme',
         'listenMe',
         'ListenMe',
-        'Listener',
-        'Event'
+        'MeListener',
+        'MeEvent'
       ]);
       ListenMe.listenme.should.be.a('function');
     });

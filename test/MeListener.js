@@ -1,5 +1,5 @@
-var Listener = require('../build/Listener.js'),
-  MeEvent = require('../build/MeEvent.js'),
+var MeListener = require('../build/aio.js').MeListener,
+  MeEvent = require('../build/aio.js').MeEvent,
   should = require('chai').should();
 
 describe('Listener Class', () => {
@@ -9,7 +9,7 @@ describe('Listener Class', () => {
     var testarr = [];
     beforeEach(() => {
       testarr = [];
-      listener1 = new Listener();
+      listener1 = new MeListener();
       event1a = listener1.addEventListener('event1', () => {
         testarr.push(1);
       })
