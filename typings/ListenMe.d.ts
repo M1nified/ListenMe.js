@@ -1,3 +1,1 @@
-declare class ListenMe {
-}
-declare var module: any;
+declare var module: any, require: any;

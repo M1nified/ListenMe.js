@@ -1,4 +1,4 @@
 {
-  var ListenMe = require('./build/ListenMe.js');
+  let ListenMe = require('./build/ListenMe.js');
   module.exports = ListenMe;
 }
