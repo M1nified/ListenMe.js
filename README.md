@@ -34,7 +34,7 @@ listenme.listenme(objectToListenOn);
 ## Basic usage browser
 
 ```html
-<script src="./node_modules/listenme/build/ListenMe.js"></script>
+<script src="./node_modules/listenme/build/aio.js"></script>
 ```
 
 ## Example
